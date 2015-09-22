@@ -16,7 +16,7 @@ function jruby-install() {
 
   pushd ${OPENSHIFT_RUBY_DIR}/tmp 1>/dev/null
 
-  curl -o jruby.tar.gz http://jruby.org.s3.amazonaws.com/downloads/$OPENSHIFT_JRUBY_VERSION/jruby-bin-$OPENSHIFT_JRUBY_VERSION.tar.gz
+  curl -o jruby.tar.gz http://s3.amazonaws.com/jruby.org/downloads/9.0.1.0/jruby-bin-9.0.1.0.tar.gz
 
   tar xf jruby.tar.gz
   rm -rf jruby.tar.gz
