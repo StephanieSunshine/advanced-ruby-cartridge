@@ -16,7 +16,7 @@ function jruby-install() {
 
   pushd ${OPENSHIFT_RUBY_DIR}/tmp 1>/dev/null
 
-  wget -O jruby.tar.gz http://goo.gl/tRe6v7 
+ /usr/bin/wget -O jruby.tar.gz http://goo.gl/tRe6v7 
 
   tar xf jruby.tar.gz
   rm -rf jruby.tar.gz
